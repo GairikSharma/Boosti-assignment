@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+    background-color: rgb(98, 0, 238);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 90%;
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-text{
+font-weight: 800;
+    color: black;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 1.2rem;
+}
+
+.sign-in {
+    width: 10%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    width: 80%;
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text{
+font-weight: 800;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.sign-in {
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
